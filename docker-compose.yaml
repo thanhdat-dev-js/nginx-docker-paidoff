@@ -1,0 +1,9 @@
+version: "1"
+
+
+services:
+  nginx:
+    build:
+      context: .
+    ports:
+      - 80:80
